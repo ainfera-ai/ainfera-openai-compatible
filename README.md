@@ -20,7 +20,7 @@ Your existing code keeps working. You now have:
 - One Agent Card across providers (L1)
 - Drain-proof wallet — survives prompt injection (L3)
 - Hash-chained audit per call (L4)
-- 5 frontier models via one key: Claude Opus 4.7 · GPT-5.5 · Gemini 3.1 Pro · DeepSeek V4 Pro · Llama 3.3 70B
+- 5 frontier models via one key: Claude Opus 4.7 · GPT-5.5 · Gemini 3.1 Pro · Grok 4 · Mistral Large 3
 - Quality scored by [Artificial Analysis](https://artificialanalysis.ai) per call
 
 > EU AI Act Annex IV ready — every call hash-chained, signed, exportable.
