@@ -2,7 +2,7 @@
 # Pure curl — proves Ainfera works without ANY client library.
 #
 # Usage:
-#   AINFERA_API_KEY=ai_live_... ./curl-example.sh
+#   AINFERA_API_KEY=ai_infera_... ./curl-example.sh
 
 set -euo pipefail
 
