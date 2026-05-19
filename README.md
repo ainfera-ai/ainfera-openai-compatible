@@ -1,4 +1,4 @@
-# examples-openai-compat — Ainfera + OpenAI SDK
+# ainfera-openai-compat — Ainfera + OpenAI SDK
 
 **The simplest possible drop-in.** Works with any client that speaks
 OpenAI's API.
@@ -28,8 +28,8 @@ Your existing code keeps working. You now have:
 ## Quickstart
 
 ```bash
-git clone https://github.com/ainfera-ai/examples-openai-compat
-cd examples-openai-compat
+git clone https://github.com/ainfera-ai/ainfera-openai-compat
+cd ainfera-openai-compat
 pip install -r requirements.txt
 export AINFERA_API_KEY=ai_infera_...  # https://app.ainfera.ai/signup
 python main.py
@@ -45,9 +45,9 @@ AINFERA_API_KEY=ai_infera_... ./curl-example.sh
 
 Ainfera works with **any** client that speaks OpenAI's API:
 
-- LangChain → [examples-langchain](https://github.com/ainfera-ai/examples-langchain)
-- CrewAI → [examples-crewai](https://github.com/ainfera-ai/examples-crewai)
-- Google ADK → [examples-google-adk](https://github.com/ainfera-ai/examples-google-adk)
+- LangChain → [ainfera-langchain](https://github.com/ainfera-ai/ainfera-langchain)
+- CrewAI → [ainfera-crewai](https://github.com/ainfera-ai/ainfera-crewai)
+- Google ADK → [ainfera-google-adk](https://github.com/ainfera-ai/ainfera-google-adk)
 - AutoGen, LlamaIndex, Haystack — same pattern
 - Your own custom client — same pattern
 - `curl` — same pattern (see `curl-example.sh`)
@@ -55,6 +55,6 @@ Ainfera works with **any** client that speaks OpenAI's API:
 ## MCP clients
 
 If you want to call Ainfera from Claude Desktop or Cursor directly, see
-[examples-mcp](https://github.com/ainfera-ai/examples-mcp).
+[ainfera-mcp](https://github.com/ainfera-ai/ainfera-mcp).
 
 Apache 2.0. © Ainfera Inc. 2026.
