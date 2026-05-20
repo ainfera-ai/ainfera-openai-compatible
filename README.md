@@ -1,7 +1,6 @@
-# ainfera-openai-compatible — Ainfera + OpenAI SDK
+# ainfera-openai-compatible — OpenAI SDK + Ainfera Routing
 
-**The simplest possible drop-in.** Works with any client that speaks
-OpenAI's API.
+**OpenAI-compatible drop-in + Ainfera Routing.** Works with any client that speaks OpenAI's API — 2 env vars.
 
 ## Two env-var change
 
@@ -18,7 +17,7 @@ export OPENAI_API_BASE=https://api.ainfera.ai/v1   # Ainfera endpoint
 Your existing code keeps working. You now have:
 
 - One Agent Card across providers (L1)
-- Drain-proof wallet — survives prompt injection (L3)
+- Routed inference with per-call budget caps (L3)
 - Hash-chained audit per call (L4)
 - 5 frontier models via one key: Claude Opus 4.7 · GPT-5.5 · Gemini 3.1 Pro · Grok 4 · Mistral Large 3
 - Quality scored by [Artificial Analysis](https://artificialanalysis.ai) per call
