@@ -79,7 +79,7 @@ endpoints (`/v1/inference`, `/v1/audit`, etc.) directly.
 | Fine-tuning | — Not exposed | — |
 
 Errors above return OpenAI-shape JSON so existing SDK error handlers
-work unchanged. See [`openai_compat.py`](https://github.com/ainfera-ai/api/blob/main/ainfera_api/routers/openai_compat.py)
+work unchanged. See `openai_compat.py` in the (private) api service
 for the canonical translation table.
 
 ## MCP clients
