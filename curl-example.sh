@@ -28,7 +28,7 @@ echo "── 2 · POST /v1/chat/completions ──"
 curl -fsS -X POST "$BASE/v1/chat/completions" \
   -H "Authorization: Bearer ${AINFERA_API_KEY}" \
   -H "Content-Type: application/json" \
-  -d '{"model":"claude-haiku-4-5","messages":[{"role":"user","content":"Say hello in one sentence."}]}' \
+  -d '{"model":"ainfera-inference","messages":[{"role":"user","content":"Say hello in one sentence."}]}' \
   | python3 -m json.tool
 
 if [[ -n "${AGENT_ID:-}" ]]; then
