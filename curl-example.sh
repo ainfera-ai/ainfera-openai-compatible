@@ -3,7 +3,7 @@
 #
 # Usage:
 #   ./curl-example.sh
-#   AINFERA_API_KEY=ai_infera_... ./curl-example.sh
+#   AINFERA_API_KEY=ainfera_... ./curl-example.sh
 
 set -euo pipefail
 
