@@ -6,7 +6,7 @@ from openai import OpenAI
 
 # SP-9 PR-A family-fix · standardized env-var contract across the
 # adapter family:
-#   AINFERA_API_KEY  — required, starts with `ai_infera_`
+#   AINFERA_API_KEY  — required, starts with `ainfera_`
 #   AINFERA_API_URL  — defaults to https://api.ainfera.ai/v1
 # Same shape as ainfera-microsoft-agent-framework + ainfera-pydantic +
 # ainfera-langchain + ainfera-crewai + ainfera-langgraph.

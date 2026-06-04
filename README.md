@@ -10,7 +10,7 @@ export OPENAI_API_KEY=sk-...
 export OPENAI_API_BASE=https://api.openai.com/v1
 
 # After
-export OPENAI_API_KEY=ai_infera_...                  # Ainfera key
+export OPENAI_API_KEY=ainfera_...                  # Ainfera key
 export OPENAI_API_BASE=https://api.ainfera.ai/v1   # Ainfera endpoint
 ```
 
@@ -30,14 +30,14 @@ Your existing code keeps working. You now have:
 git clone https://github.com/ainfera-ai/ainfera-openai-compatible
 cd ainfera-openai-compatible
 pip install -r requirements.txt
-export AINFERA_API_KEY=ai_infera_...  # https://app.ainfera.ai/signup
+export AINFERA_API_KEY=ainfera_...  # https://app.ainfera.ai/signup
 python main.py
 ```
 
 Or with `curl` only — no Python client needed:
 
 ```bash
-AINFERA_API_KEY=ai_infera_... ./curl-example.sh
+AINFERA_API_KEY=ainfera_... ./curl-example.sh
 ```
 
 ## What this proves
