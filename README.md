@@ -7,11 +7,11 @@
 ```bash
 # Before
 export OPENAI_API_KEY=sk-...
-export OPENAI_API_BASE=https://api.openai.com/v1
+export OPENAI_BASE_URL=https://api.openai.com/v1
 
 # After
 export OPENAI_API_KEY=ainfera_...                  # Ainfera key
-export OPENAI_API_BASE=https://api.ainfera.ai/v1   # Ainfera endpoint
+export OPENAI_BASE_URL=https://api.ainfera.ai/v1   # Ainfera endpoint
 ```
 
 Your existing code keeps working. You now have:
